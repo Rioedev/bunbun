@@ -14,7 +14,12 @@ export default function Gallery() {
     };
 
     return (
-        <div className="p-6 flex flex-col items-center bg-gradient-to-b from-pink-50 to-pink-100 min-h-screen">
+        <div
+            className="relative p-6 flex flex-col items-center min-h-screen overflow-hidden
+    bg-gradient-to-b from-pink-50 via-pink-100 to-pink-200 
+    [background-image:radial-gradient(rgba(255,255,255,0.6)_1px,transparent_1px)]
+    [background-size:20px_20px]"
+        >
             <motion.h2
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -23,7 +28,7 @@ export default function Gallery() {
             >
                 Album của Bún 💖
             </motion.h2>
-      
+
             <PhotoProvider>
                 <div className="w-full max-w-6xl px-4">
                     <Masonry
