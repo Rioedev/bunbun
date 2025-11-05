@@ -1,0 +1,26 @@
+const photos: string[] = [
+    "/photos/bun1.jpg",
+    "/photos/bun2.jpg",
+    "/photos/bun3.jpg",
+    "/photos/bun4.jpg",
+    "/photos/bun5.jpg",
+    "/photos/bun6.jpg",
+    "/photos/bun7.jpg",
+    "/photos/bun8.jpg",
+    "/photos/bun9.jpg",
+    "/photos/bun10.jpg",
+    "/photos/bun11.jpg",
+    "/photos/bun12.jpg",
+    "/photos/bun13.jpg",
+    "/photos/bun14.jpg",
+    "/photos/bun15.jpg",
+    "/photos/bun16.jpg",
+    "/photos/bun17.jpg",
+    "/photos/bun18.jpg",
+    "/photos/bun19.jpg",
+    "/photos/bun20.jpg",
+    "/photos/bun21.jpg",
+    "/photos/bun22.jpg",
+];
+
+export default photos;
